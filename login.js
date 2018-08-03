@@ -1,5 +1,7 @@
+const title = "mybot";
+
 function backFunc() {
-  window.open("", "_self");
+  window.open("/" + title, "_self");
 }
 
 function loginFunc() {
